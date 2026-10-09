@@ -1,0 +1,376 @@
+[
+  {
+    "code": "482.9",
+    "description": "Bacterial pneumonia, unspecified",
+    "coding_note": "The code specifies bacterial pneumonia while leaving the organism unspecified. General pneumonia findings do not establish a bacterial cause or identify a pathogen.",
+    "direct_prompting": {
+      "Definition": "Bacterial pneumonia is an infection of the lung tissue caused by bacteria, producing inflammation and fluid or pus within the alveoli. The resulting impairment of gas exchange can cause respiratory symptoms and reduced oxygen levels. The unspecified designation indicates that the particular bacterial organism has not been identified or recorded.",
+      "Symptoms": "Patients commonly develop fever, chills, cough with sputum, shortness of breath, and chest pain that worsens with breathing or coughing. Fatigue and reduced appetite can accompany the respiratory illness. Older adults can have a less typical presentation, including weakness or confusion, and the severity of symptoms varies with age and underlying health.",
+      "Diagnosis": "Diagnosis usually combines a history of acute respiratory symptoms, examination of the lungs, and a chest X-ray showing an infiltrate. Blood tests and oxygen saturation measurements help assess severity. Sputum examination or blood cultures can identify the causative organism in selected patients, particularly those with severe disease or requiring hospital treatment.",
+      "Treatment": "Treatment uses antibiotics together with supportive measures such as hydration, rest, and oxygen when oxygen levels are low. The choice of antibiotic depends on illness severity, other medical conditions, and the likely bacteria involved. Patients with severe symptoms can require hospital admission, intravenous medication, and close monitoring of respiratory function and treatment response.",
+      "Complications": "Bacterial pneumonia can progress to respiratory failure or infection involving the pleural space. Some patients develop a lung abscess, bloodstream infection, or sepsis. Complications are more likely in older adults and people with weakened immunity or significant underlying disease, and can prolong hospital treatment or require additional respiratory and antimicrobial support.",
+      "Summary": "Bacterial pneumonia is a potentially serious lung infection that presents with respiratory and systemic symptoms. Clinical assessment and chest imaging guide diagnosis, while antibiotics and supportive care address the infection and its physiological effects. Early recognition of deterioration and appropriate follow-up help identify complications and patients who need a higher level of care."
+    },
+    "descfuse": {
+      "Definition": "ICD-9 482.9 denotes pneumonia attributed to bacteria when the species remains unspecified in the documented diagnosis. Infection of the pulmonary parenchyma produces alveolar inflammation and exudate, impairing ventilation and gas exchange. The bacterial attribution distinguishes this code from pneumonia with an entirely unspecified organism, while the unspecified species qualifier separates it from organism-specific bacterial pneumonia codes. Neither the distribution of an infiltrate nor antibiotic exposure alone resolves these coding distinctions.",
+      "Symptoms": "The clinical picture includes fever or chills, cough that can produce purulent sputum, pleuritic chest pain, tachypnea, dyspnea, and hypoxemia. Examination can reveal crackles or other focal respiratory findings. Older adults and immunocompromised patients can have muted fever and instead present with new confusion, weakness, or functional decline. Symptom severity therefore requires interpretation alongside oxygenation, vital signs, and baseline health; a typical symptom cluster supports pneumonia but does not identify a bacterial species.",
+      "Diagnosis": "Assessment integrates an acute compatible illness with a new pulmonary infiltrate on chest radiography or other appropriate imaging, while pulse oximetry and laboratory findings characterize physiological impact. Sputum studies and blood cultures are selected according to severity, clinical setting, and relevant risk factors rather than obtained indiscriminately. Chest CT or pleural fluid evaluation can clarify complications or an inadequate response. Negative or unavailable microbiology leaves the organism unresolved; documentation must still support bacterial pneumonia rather than infer etiology from imaging alone.",
+      "Treatment": "Management combines antibacterial therapy with severity-guided supportive care and reassessment. Empirical antibiotic selection considers community versus hospital acquisition, comorbidities, local resistance, and risk factors for resistant pathogens; microbiological results can subsequently support narrowing therapy. Hypoxemia warrants oxygen support, and respiratory or hemodynamic instability can require hospital or intensive care. Hydration, monitoring of clinical stability, and evaluation of a poor response complement antimicrobial treatment. The code itself does not specify an antibiotic regimen or establish the site of acquisition.",
+      "Complications": "Potential complications include worsening hypoxemia and respiratory failure, parapneumonic effusion or empyema, lung abscess, and bacteremia with systemic infection. Persistent fever, increasing oxygen requirements, or failure to improve can prompt reassessment for these complications or an alternative explanation. Pleural infection can require fluid sampling and drainage in addition to antibiotics, while respiratory failure can require ventilatory support. These events describe possible disease progression and require separate clinical documentation rather than follow automatically from the pneumonia code.",
+      "Summary": "The profile links a documented bacterial lung infection to its respiratory presentation, imaging evidence, selectively obtained microbiology, antibacterial treatment, and severity-related complications. It preserves the distinction between a known bacterial etiology and an unidentified species, while allowing atypical presentations and incomplete microbiological confirmation. Clinical interpretation depends on the combined evidence and the recorded diagnosis; isolated symptoms, an infiltrate, or treatment with antibiotics should not independently determine the organism-specific or unspecified bacterial code."
+    },
+    "facet_sources": {
+      "Definition": [
+        "canonical:482.9",
+        "NHLBI-pneumonia"
+      ],
+      "Symptoms": [
+        "NHLBI-pneumonia-symptoms",
+        "ATS-IDSA-CAP"
+      ],
+      "Diagnosis": [
+        "NHLBI-pneumonia-diagnosis",
+        "ATS-IDSA-CAP"
+      ],
+      "Treatment": [
+        "NHLBI-pneumonia-treatment",
+        "ATS-IDSA-CAP"
+      ],
+      "Complications": [
+        "NHLBI-pneumonia-diagnosis",
+        "NHLBI-pneumonia-treatment"
+      ],
+      "Summary": [
+        "canonical:482.9",
+        "NHLBI-pneumonia",
+        "ATS-IDSA-CAP"
+      ]
+    },
+    "sources": [
+      {
+        "id": "NHLBI-pneumonia",
+        "title": "NHLBI: Pneumonia",
+        "url": "https://www.nhlbi.nih.gov/health/pneumonia"
+      },
+      {
+        "id": "NHLBI-pneumonia-symptoms",
+        "title": "NHLBI: Pneumonia symptoms",
+        "url": "https://www.nhlbi.nih.gov/health/pneumonia/symptoms"
+      },
+      {
+        "id": "NHLBI-pneumonia-diagnosis",
+        "title": "NHLBI: Pneumonia diagnosis",
+        "url": "https://www.nhlbi.nih.gov/health/pneumonia/diagnosis"
+      },
+      {
+        "id": "NHLBI-pneumonia-treatment",
+        "title": "NHLBI: Pneumonia treatment",
+        "url": "https://www.nhlbi.nih.gov/health/pneumonia/treatment"
+      },
+      {
+        "id": "ATS-IDSA-CAP",
+        "title": "ATS/IDSA: Adult community-acquired pneumonia",
+        "url": "https://www.atsjournals.org/doi/10.1164/rccm.201908-1581ST"
+      }
+    ],
+    "provenance": "author_edited_comparison"
+  },
+  {
+    "code": "478.33",
+    "description": "Bilateral partial paralysis of vocal cords",
+    "coding_note": "The historical code title is Bilateral paralysis of vocal cords or larynx, partial. Partial bilateral impairment differs from unilateral disease and complete bilateral immobility.",
+    "direct_prompting": {
+      "Definition": "Bilateral partial paralysis of the vocal cords describes reduced movement of both vocal folds, usually related to impaired nerve function. The vocal folds help produce voice, regulate airflow through the larynx, and protect the airway during swallowing. Partial impairment can therefore affect voice quality, breathing, or swallowing without completely eliminating vocal fold movement.",
+      "Symptoms": "Symptoms can include hoarseness, a weak or breathy voice, vocal fatigue, and difficulty projecting the voice. Some patients experience noisy breathing or shortness of breath, particularly during exertion. Coughing or choking with food and liquids can occur when airway protection is impaired. The clinical presentation depends on the position and remaining movement of the vocal folds.",
+      "Diagnosis": "An otolaryngologist evaluates the history of voice changes, breathing difficulty, swallowing symptoms, and possible preceding surgery or neurological illness. Flexible laryngoscopy allows direct observation of vocal fold movement. Additional assessment can include videostroboscopy, laryngeal electromyography, or imaging when the underlying cause is unclear or further evaluation of nerve function is needed.",
+      "Treatment": "Treatment depends on symptom severity, the underlying cause, and the likelihood of recovery. Voice therapy can improve vocal efficiency and compensatory techniques, while swallowing assessment guides measures to protect the airway. Persistent or severe impairment can require surgery. Patients with substantial breathing difficulty need prompt assessment because bilateral disease can compromise the laryngeal airway.",
+      "Complications": "Reduced vocal fold movement can cause persistent dysphonia, impaired communication, and difficulty swallowing safely. Poor airway closure can allow food or fluid to enter the respiratory tract, increasing the risk of aspiration-related problems. In bilateral involvement, restricted airflow can also cause significant breathing difficulty and occasionally require an intervention to secure or enlarge the airway.",
+      "Summary": "Bilateral partial vocal cord paralysis can affect voice production, respiration, and swallowing. Direct visualization establishes the movement abnormality, and further testing helps clarify its cause and functional significance. Management combines rehabilitation with selected procedures according to airway safety and the severity of symptoms, with follow-up to assess recovery or persistent impairment."
+    },
+    "descfuse": {
+      "Definition": "ICD-9 478.33 specifies partial impairment involving both vocal cords or the larynx, preserving both the bilateral and incomplete-movement qualifiers. Neurogenic paresis can reduce opening, closure, or coordination while leaving residual movement. The resulting functional deficit depends on resting position and the muscles affected: restricted opening compromises airflow, whereas inadequate closure affects phonation and airway protection. Bilateral partial impairment therefore requires distinction from unilateral paralysis, complete bilateral immobility, and mechanically fixed vocal folds.",
+      "Symptoms": "Voice changes include breathiness, reduced projection, vocal fatigue, and compensatory strain, but prominent dysphonia is not required when bilateral folds remain near the midline. Restricted opening can produce exertional dyspnea or inspiratory noise, while insufficient closure can cause coughing or choking during meals and an ineffective cough. The relative prominence of respiratory, voice, and swallowing symptoms reflects residual movement and glottic position. Symptom assessment should therefore cover all three functions rather than equate a relatively preserved voice with a safe airway.",
+      "Diagnosis": "Flexible laryngoscopy assesses each fold during breathing and phonation to document bilateral reduction in movement and characterize the remaining airway. Videostroboscopy can reveal subtle vibratory or motion abnormalities, and laryngeal electromyography can support a neurogenic explanation and inform prognosis. History and targeted investigation consider neck or chest surgery, trauma, neurological disease, and lesions along the vagal or recurrent laryngeal pathways. Mechanical fixation and posterior glottic stenosis belong in the differential diagnosis; the code alone does not establish a particular cause.",
+      "Treatment": "Management prioritizes airway adequacy while balancing voice and swallowing function. Patients with a stable airway can receive follow-up, treatment of an identifiable cause, and targeted voice or swallowing rehabilitation according to their deficits. Severe respiratory compromise can require tracheostomy, while selected persistent cases undergo an airway-enlarging procedure such as cordotomy or arytenoid surgery. These procedures can improve airflow at the expense of voice or airway protection, so intervention depends on functional assessment and recovery potential rather than on bilateral involvement alone.",
+      "Complications": "The disease can cause upper-airway obstruction, exertional respiratory limitation, aspiration, ineffective cough, and persistent communication difficulties. The risk pattern depends on the balance between restricted opening and inadequate closure, so individual patients need not exhibit every complication. Treatment introduces additional trade-offs: airway-widening surgery can worsen voice quality, and postoperative edema, granulation tissue, fibrosis, or scarring can affect the airway or require revision. Disease-related consequences and procedure-related effects should remain distinct when interpreting a clinical record.",
+      "Summary": "Bilateral partial vocal fold impairment is a functional laryngeal disorder whose consequences span breathing, phonation, and swallowing. A complete profile combines the bilateral movement findings, the degree of residual function, evidence for a neurogenic cause, and the functional priorities guiding management. This structure distinguishes airway-threatening restriction from primarily phonatory impairment and prevents unilateral treatment assumptions from being transferred to bilateral disease. Etiology, severity, and the need for a procedure require patient-specific evidence beyond the code label."
+    },
+    "facet_sources": {
+      "Definition": [
+        "canonical:478.33",
+        "BVFP-options"
+      ],
+      "Symptoms": [
+        "NIDCD-vocal-fold",
+        "BVFP-options",
+        "VFP-paresis-review"
+      ],
+      "Diagnosis": [
+        "VFP-paresis-review",
+        "BVFP-immobility",
+        "NIDCD-vocal-fold"
+      ],
+      "Treatment": [
+        "BVFP-options",
+        "BVFP-systematic-review"
+      ],
+      "Complications": [
+        "NIDCD-vocal-fold",
+        "BVFP-systematic-review"
+      ],
+      "Summary": [
+        "canonical:478.33",
+        "BVFP-immobility",
+        "VFP-paresis-review"
+      ]
+    },
+    "sources": [
+      {
+        "id": "NIDCD-vocal-fold",
+        "title": "NIDCD: Vocal fold paralysis",
+        "url": "https://www.nidcd.nih.gov/health/vocal-fold-paralysis"
+      },
+      {
+        "id": "VFP-paresis-review",
+        "title": "Vocal fold paresis: clinical assessment",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27092906/"
+      },
+      {
+        "id": "BVFP-options",
+        "title": "Bilateral vocal fold paralysis: treatment options",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28669149/"
+      },
+      {
+        "id": "BVFP-systematic-review",
+        "title": "Management of bilateral vocal fold paralysis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38123531/"
+      },
+      {
+        "id": "BVFP-immobility",
+        "title": "Bilateral vocal fold immobility: diagnosis and treatment",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9443780/"
+      }
+    ],
+    "provenance": "author_edited_comparison"
+  },
+  {
+    "code": "240",
+    "description": "Simple and unspecified goiter",
+    "coding_note": "240 is a category-level ICD-9 entry. Leaf-level coding requires the applicable child code, such as 240.0 or 240.9, according to the documented diagnosis.",
+    "direct_prompting": {
+      "Definition": "A goiter is an enlargement of the thyroid gland in the lower front of the neck. Simple or unspecified goiter describes enlargement without a more specific characterization in the diagnostic label. It can occur with normal thyroid hormone production or accompany an underlying thyroid disorder, and its clinical importance depends on the cause and extent of enlargement.",
+      "Symptoms": "Many people have no symptoms apart from visible or palpable swelling in the neck. Larger goiters can cause a sensation of pressure, difficulty swallowing, or breathing discomfort. Voice changes can also prompt evaluation. Symptoms of an overactive or underactive thyroid can coexist when the underlying condition affects hormone production, although enlargement does not necessarily imply abnormal thyroid function.",
+      "Diagnosis": "Clinical examination identifies thyroid enlargement, and blood tests assess thyroid function. Ultrasound helps evaluate the size and structure of the gland and can reveal nodules. Further testing depends on the findings and can include thyroid antibodies, a radionuclide scan, or needle biopsy of a suspicious nodule. The evaluation aims to identify the cause and exclude clinically important structural disease.",
+      "Treatment": "Treatment depends on the cause, thyroid function, and whether the enlargement produces symptoms. Small asymptomatic goiters can be monitored. A confirmed hormone disorder or iodine deficiency is treated according to its cause, and surgery can be considered when a large gland interferes with breathing or swallowing. Follow-up assesses changes in gland size, symptoms, and thyroid function.",
+      "Complications": "A large goiter can compress nearby structures and cause breathing or swallowing difficulty. Some patients develop thyroid dysfunction as the underlying disease progresses. Structural changes, including nodules, can require additional investigation. Complications are not inevitable, and the risk depends on the anatomy of the enlarged gland and the thyroid disorder responsible for it.",
+      "Summary": "Simple or unspecified goiter refers to thyroid enlargement that requires assessment of both structure and function. Examination, hormone testing, and imaging guide the evaluation, while observation or cause-directed treatment addresses the clinical findings. A large or symptomatic goiter can require specialist management, particularly when it affects the airway or swallowing."
+    },
+    "descfuse": {
+      "Definition": "ICD-9 category 240 encompasses simple and unspecified goiter, with more specific entries distinguishing goiter described as simple from goiter left unspecified. Goiter denotes structural enlargement of the thyroid rather than a particular hormone state: the gland can be euthyroid, hypothyroid, or hyperthyroid depending on the underlying disorder. The category therefore requires separate characterization of morphology, functional status, and cause. Its use should not substitute for a more specific documented thyroid diagnosis or resolve a leaf-level coding decision.",
+      "Symptoms": "A small goiter can remain asymptomatic and appear only as anterior neck enlargement on examination. Progressive enlargement can cause neck pressure, dysphagia, dyspnea, or positional breathing discomfort, particularly when the gland extends behind the sternum or narrows the trachea. Palpitations, heat intolerance, fatigue, or cold intolerance can accompany an underlying hormone disorder, but belong to functional assessment rather than define goiter itself. Changes in voice or rapidly evolving local symptoms warrant evaluation of structural involvement and alternative explanations.",
+      "Diagnosis": "Evaluation documents the size, distribution, and compressive effects of thyroid enlargement and checks thyroid function, commonly beginning with TSH and appropriate thyroid hormone measurements. Ultrasound characterizes gland structure and any nodules; antibody testing addresses a suspected autoimmune cause. Radionuclide assessment is selected according to functional findings, while fine-needle aspiration targets nodules meeting appropriate clinical and ultrasound criteria. Distinguishing diffuse enlargement from nodular disease and structural compression from hormone-related symptoms provides the detail absent from the category label.",
+      "Treatment": "Management follows the demonstrated cause and consequences of enlargement. Stable, asymptomatic enlargement with reassuring evaluation can be observed with clinical and biochemical follow-up. Confirmed iodine deficiency or hypothyroidism requires appropriate cause-directed treatment, while nodules and autonomous function follow their own evaluation pathways. Compressive symptoms, substernal extension, or concerning structural findings can prompt surgical assessment. Routine thyroid hormone suppression is not a universal treatment for euthyroid goiter, and neither antithyroid medication nor surgery follows automatically from the code.",
+      "Complications": "Large or substernal goiters can compress the trachea or esophagus, producing airway limitation or dysphagia. Progression of the underlying thyroid disorder can alter hormone function, while a nodule can require a separate malignancy assessment based on its own features. If surgery becomes necessary, potential complications include bleeding, recurrent laryngeal nerve injury, and hypoparathyroidism. The clinical profile keeps effects of gland enlargement, consequences of the underlying disease, and treatment-related risks separate rather than attributing them all to uncomplicated goiter.",
+      "Summary": "A complete goiter profile combines structural enlargement, thyroid hormone status, underlying cause, and the presence or absence of local compression. This distinction supports selective testing and separates an observation pathway from treatment of a functional disorder or surgical management of compressive disease. ICD-9 240 is a category-level entry; the final code should reflect available diagnostic specificity, including the applicable child code. Enlargement alone does not establish thyroid toxicity, hypothyroidism, a particular nodule subtype, or malignancy."
+    },
+    "facet_sources": {
+      "Definition": [
+        "canonical:240",
+        "ATA-goiter"
+      ],
+      "Symptoms": [
+        "ATA-goiter",
+        "ATA-goiter-surgery"
+      ],
+      "Diagnosis": [
+        "NIDDK-thyroid-tests",
+        "ATA-thyroid-nodules"
+      ],
+      "Treatment": [
+        "ATA-goiter",
+        "ATA-goiter-surgery"
+      ],
+      "Complications": [
+        "ATA-thyroid-nodules",
+        "ATA-goiter-surgery"
+      ],
+      "Summary": [
+        "canonical:240",
+        "ATA-goiter",
+        "NIDDK-thyroid-tests"
+      ]
+    },
+    "sources": [
+      {
+        "id": "ATA-goiter",
+        "title": "American Thyroid Association: Goiter",
+        "url": "https://www.thyroid.org/goiter/"
+      },
+      {
+        "id": "NIDDK-thyroid-tests",
+        "title": "NIDDK: Thyroid tests",
+        "url": "https://www.niddk.nih.gov/health-information/diagnostic-tests/thyroid"
+      },
+      {
+        "id": "ATA-thyroid-nodules",
+        "title": "ATA: Thyroid nodules",
+        "url": "https://www.thyroid.org/thyroid-nodules/"
+      },
+      {
+        "id": "ATA-goiter-surgery",
+        "title": "ATA: Surgical management of goiter",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24295043/"
+      }
+    ],
+    "provenance": "author_edited_comparison"
+  },
+  {
+    "code": "428.0",
+    "description": "Congestive heart failure, unspecified",
+    "coding_note": "428.0 does not identify ejection-fraction phenotype, acuity, or a specific causal cardiac disorder. General treatment context should not be read as a phenotype assignment.",
+    "direct_prompting": {
+      "Definition": "Congestive heart failure is a clinical syndrome in which the heart does not provide adequate circulation without abnormal filling pressures or fluid accumulation. It can result from a range of cardiac disorders and can involve impaired contraction, impaired filling, or both. The unspecified designation indicates that the diagnostic label does not identify a more detailed heart failure subtype.",
+      "Symptoms": "Common symptoms include shortness of breath during activity, difficulty breathing when lying flat, fatigue, and swelling of the legs or ankles. Fluid retention can produce weight gain and abdominal discomfort. The severity ranges from mild exercise limitation to breathlessness at rest, and symptoms can worsen when the condition becomes decompensated or another illness increases the burden on the heart.",
+      "Diagnosis": "Diagnosis uses the medical history, examination, and evidence of cardiac dysfunction or congestion. Echocardiography evaluates the structure and pumping function of the heart, while blood tests can include natriuretic peptides and measures of kidney function. An electrocardiogram and chest imaging can identify associated abnormalities. Further testing investigates the underlying cardiac disease and factors contributing to worsening symptoms.",
+      "Treatment": "Management aims to relieve fluid overload, improve cardiac function, and reduce the risk of further deterioration. Diuretics address congestion, while other medicines depend on the type of heart failure and the individual clinical situation. Lifestyle measures, treatment of contributing conditions, and regular follow-up complement medication. Selected patients require a cardiac device, a procedure, or specialist assessment for advanced heart failure.",
+      "Complications": "Heart failure can cause pulmonary edema, recurrent hospital admission, and reduced ability to perform daily activities. Poor circulation or congestion can impair kidney and liver function. Arrhythmias and sudden cardiac arrest are additional concerns in some patients, and advanced disease can progress despite treatment. The nature and likelihood of complications depend on the underlying cardiac disease and severity.",
+      "Summary": "Congestive heart failure is a syndrome of cardiac dysfunction and fluid congestion that requires evaluation of its cause and severity. Symptoms, imaging, and laboratory results guide management, with medication and supportive measures tailored to the clinical findings. Ongoing monitoring helps detect worsening congestion, treatment-related problems, and patients who need more specialized care."
+    },
+    "descfuse": {
+      "Definition": "ICD-9 428.0 denotes congestive heart failure without a specified subtype in the code. Congestion reflects increased cardiac filling pressures and fluid accumulation, while impaired systemic perfusion can coexist to varying degrees. The syndrome can arise from reduced systolic function, abnormal ventricular filling, or mixed mechanisms. The unspecified designation preserves uncertainty about ejection-fraction phenotype and does not establish acute, chronic, or acute-on-chronic disease. These distinctions require the clinical assessment and diagnostic wording rather than extrapolation from edema or medication use.",
+      "Symptoms": "Pulmonary congestion can produce exertional dyspnea, orthopnea, cough, and difficulty sleeping flat, while systemic venous congestion can cause dependent edema, abdominal fullness, and weight gain. Fatigue and reduced exercise tolerance reflect the combined effects of circulatory impairment and congestion. Examination can identify lung crackles, elevated jugular venous pressure, or peripheral edema, but findings vary with disease distribution and treatment. New or rapidly worsening symptoms should be interpreted with the clinical course to distinguish deterioration from a stable baseline.",
+      "Diagnosis": "Diagnosis integrates symptoms and signs with objective evidence of cardiac dysfunction or elevated filling pressures. BNP or NT-proBNP measurements can support assessment, and echocardiography evaluates ejection fraction, chamber structure, valves, and relevant functional abnormalities. ECG, chest imaging, renal function, and other laboratory tests characterize associated disease and treatment constraints. Evaluation also addresses precipitating or alternative causes of dyspnea and edema. An unspecified CHF code does not replace this phenotyping, and a reduced ejection fraction or a specific acuity should be assigned only when supported.",
+      "Treatment": "Treatment separates relief of congestion from therapies directed at the established heart failure phenotype and underlying disease. Diuretics address fluid overload; patients with confirmed HFrEF can receive appropriate renin-angiotensin system treatment, evidence-based beta blockade, a mineralocorticoid receptor antagonist, and an SGLT2 inhibitor as tolerated. Selection and adjustment account for blood pressure, renal function, electrolytes, and clinical stability. Other phenotypes and selected device indications require their own assessment. The unspecified code therefore supports a management context rather than a universal medication or device regimen.",
+      "Complications": "Decompensation can cause pulmonary edema, respiratory compromise, recurrent hospitalization, and worsening functional capacity. Reduced perfusion and venous congestion can contribute to kidney or liver injury, while underlying cardiac disease can increase the risk of arrhythmia and sudden death. Advanced cases can require assessment for mechanical circulatory support or transplantation. Treatment also requires surveillance for hypotension, renal deterioration, and electrolyte abnormalities. The profile distinguishes disease progression from medication-related effects and does not presume that every patient with 428.0 has advanced or acutely decompensated disease.",
+      "Summary": "The profile connects pulmonary and systemic congestion, objective cardiac evaluation, phenotype-dependent treatment, and potential organ complications while retaining the diagnostic limits of an unspecified CHF code. It identifies the information needed to move from a broad syndrome label to a more specific description of function and acuity. Symptoms and medication patterns can contribute clinical context, but the documented diagnosis and supporting investigation determine whether systolic, diastolic, acute, chronic, or other more specific coding categories apply."
+    },
+    "facet_sources": {
+      "Definition": [
+        "canonical:428.0",
+        "NHLBI-heart-failure",
+        "AHA-HF-guideline"
+      ],
+      "Symptoms": [
+        "NHLBI-heart-failure-symptoms",
+        "AHA-HF-guideline"
+      ],
+      "Diagnosis": [
+        "NHLBI-heart-failure-diagnosis",
+        "AHA-HF-guideline"
+      ],
+      "Treatment": [
+        "NHLBI-heart-failure-treatment",
+        "AHA-HF-guideline"
+      ],
+      "Complications": [
+        "NHLBI-heart-failure-symptoms",
+        "NHLBI-heart-failure-treatment"
+      ],
+      "Summary": [
+        "canonical:428.0",
+        "NHLBI-heart-failure",
+        "AHA-HF-guideline"
+      ]
+    },
+    "sources": [
+      {
+        "id": "NHLBI-heart-failure",
+        "title": "NHLBI: Heart failure",
+        "url": "https://www.nhlbi.nih.gov/health/heart-failure"
+      },
+      {
+        "id": "NHLBI-heart-failure-symptoms",
+        "title": "NHLBI: Heart failure symptoms",
+        "url": "https://www.nhlbi.nih.gov/health/heart-failure/symptoms"
+      },
+      {
+        "id": "NHLBI-heart-failure-diagnosis",
+        "title": "NHLBI: Heart failure diagnosis",
+        "url": "https://www.nhlbi.nih.gov/health/heart-failure/diagnosis"
+      },
+      {
+        "id": "NHLBI-heart-failure-treatment",
+        "title": "NHLBI: Heart failure treatment",
+        "url": "https://www.nhlbi.nih.gov/health/heart-failure/treatment"
+      },
+      {
+        "id": "AHA-HF-guideline",
+        "title": "AHA/ACC/HFSA: Heart failure guideline",
+        "url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000001063"
+      }
+    ],
+    "provenance": "author_edited_comparison"
+  },
+  {
+    "code": "493.90",
+    "description": "Asthma, unspecified type, unspecified",
+    "coding_note": "This historical code does not state acute exacerbation or status asthmaticus. Typical symptoms and treatment descriptions do not establish either complication.",
+    "direct_prompting": {
+      "Definition": "Asthma is a chronic respiratory disease characterized by airway inflammation and episodes of narrowed airflow. It causes variable breathing symptoms that can improve spontaneously or with treatment. The unspecified designation indicates that the code does not identify a particular asthma type or an acute complication, and clinical assessment is needed to characterize the individual presentation.",
+      "Symptoms": "Typical symptoms are wheezing, cough, shortness of breath, and chest tightness. Symptoms can occur intermittently, worsen at night or in the early morning, and follow exposure to triggers such as allergens, exercise, smoke, or respiratory infections. The frequency and severity vary between patients and over time, with some people experiencing episodes that interfere with sleep or daily activity.",
+      "Diagnosis": "Assessment combines a history of variable respiratory symptoms with lung function testing. Spirometry can show airflow obstruction and improvement after a bronchodilator. The clinician also asks about symptom timing, triggers, family history, and other respiratory conditions. Additional testing or repeated measurements can help when the initial results do not clearly establish the diagnosis or another condition is suspected.",
+      "Treatment": "Management combines inhaled medication with measures to reduce exposure to relevant triggers. Anti-inflammatory treatment helps maintain control, while reliever medication addresses symptoms according to the prescribed plan. Inhaler technique, adherence, and regular review are important parts of care. An asthma action plan helps patients recognize worsening symptoms and understand when to adjust treatment or seek medical attention.",
+      "Complications": "Poorly controlled asthma can cause repeated attacks, interrupted sleep, reduced physical activity, and absence from school or work. Severe episodes can require urgent assessment or hospital treatment, and life-threatening attacks can lead to respiratory failure. Ongoing symptoms or frequent deterioration indicate a need to reassess control, treatment use, and factors that contribute to the disease.",
+      "Summary": "Asthma causes variable respiratory symptoms and airflow limitation, with severity and control changing over time. Diagnosis relies on the clinical pattern and appropriate functional testing. Inhaled treatment, trigger management, and follow-up help reduce symptoms and attacks. The unspecified code provides a broad diagnostic label, while the clinical record determines whether a more detailed category is supported."
+    },
+    "descfuse": {
+      "Definition": "ICD-9 493.90 refers to asthma with unspecified type and without a stated acute exacerbation or status asthmaticus in this code. Asthma combines variable respiratory symptoms with variable expiratory airflow limitation, commonly in a background of airway inflammation and hyperresponsiveness. The label does not identify an allergic mechanism, a severity class, or current control. It also does not establish the absence of symptoms; specifying an acute complication requires its own clinical evidence and diagnostic documentation.",
+      "Symptoms": "Wheeze, cough, chest tightness, and dyspnea typically vary in intensity and timing, with nocturnal or early-morning symptoms and episodes related to exercise, allergens, smoke, or respiratory infection. Symptom-free intervals can alternate with periods of deterioration. The clinical profile records both the symptom pattern and its functional impact, including sleep disturbance, activity limitation, and increased need for relief. Individual symptoms overlap with other respiratory disorders, so their temporal variability and relation to objective airflow changes help organize the evidence.",
+      "Diagnosis": "Assessment seeks a compatible variable symptom history together with objective evidence of variable expiratory airflow limitation. Spirometry before and after bronchodilator treatment can demonstrate reversibility; repeated testing, peak-flow variability, or selected challenge testing can help when initial spirometry is nondiagnostic. Evaluation considers alternative explanations and comorbid conditions that affect breathing or symptom perception. Establishing asthma, characterizing its control, and identifying an acute episode are related but distinct tasks. Normal testing at one visit can require reassessment rather than settle a variable disease presentation.",
+      "Treatment": "Management uses an age-appropriate inhaled corticosteroid-containing strategy to address airway inflammation, with reliever treatment selected within the prescribed regimen. Review of inhaler technique, adherence, exposure to triggers, and relevant comorbidities accompanies medication adjustment. A written action plan links changes in symptoms or lung function to a response pathway and thresholds for seeking care. Persistent poor control prompts reassessment of diagnosis and contributing factors. Specific drug combinations and treatment intensity depend on the clinical assessment rather than follow from the unspecified ICD code.",
+      "Complications": "Uncontrolled disease can cause recurrent exacerbations, sleep disruption, exercise limitation, and repeated urgent-care or hospital visits. A severe attack can progress to marked airflow obstruction, hypoxemia, and respiratory failure. Previous serious attacks and the current control pattern contribute to assessment of future risk, while adverse effects depend on the treatment actually used. These possible complications should be distinguished from the qualifier assigned to a particular encounter: their presence in a general disease profile does not establish an exacerbation or status asthmaticus in the record.",
+      "Summary": "The profile connects variable symptoms, objective lung-function evidence, inflammatory control, reliever use, and future attack risk while retaining the unspecified diagnostic qualifiers of 493.90. It separates confirmation of the disease from assessment of current control and documentation of an acute complication. This organization supports interpretation of dispersed respiratory evidence without inferring severity, an allergic subtype, exacerbation, or status asthmaticus from a single symptom, inhaler prescription, or historical mention of an attack."
+    },
+    "facet_sources": {
+      "Definition": [
+        "canonical:493.90",
+        "NHLBI-asthma",
+        "GINA-2026"
+      ],
+      "Symptoms": [
+        "CDC-asthma",
+        "NHLBI-asthma"
+      ],
+      "Diagnosis": [
+        "NHLBI-asthma-diagnosis",
+        "GINA-2026"
+      ],
+      "Treatment": [
+        "CDC-asthma",
+        "GINA-2026"
+      ],
+      "Complications": [
+        "NHLBI-asthma",
+        "GINA-2026"
+      ],
+      "Summary": [
+        "canonical:493.90",
+        "CDC-asthma",
+        "NHLBI-asthma-diagnosis"
+      ]
+    },
+    "sources": [
+      {
+        "id": "CDC-asthma",
+        "title": "CDC: About asthma",
+        "url": "https://www.cdc.gov/asthma/about/"
+      },
+      {
+        "id": "NHLBI-asthma",
+        "title": "NHLBI: Asthma",
+        "url": "https://www.nhlbi.nih.gov/health/asthma"
+      },
+      {
+        "id": "NHLBI-asthma-diagnosis",
+        "title": "NHLBI: Asthma diagnosis",
+        "url": "https://www.nhlbi.nih.gov/health/asthma/diagnosis"
+      },
+      {
+        "id": "GINA-2026",
+        "title": "GINA: Global strategy for asthma management and prevention, 2026",
+        "url": "https://ginasthma.org/wp-content/uploads/2026/05/GINA-2026-Strategy-Report-WMS.pdf"
+      }
+    ],
+    "provenance": "author_edited_comparison"
+  }
+]
