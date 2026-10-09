@@ -28,11 +28,10 @@ python -m descfuse.cli inspect --checkpoint runs/smoke/best.pt --data runs/smoke
 python -m descfuse.cli decode --checkpoint runs/smoke/best.pt --code 482.9 --device cpu --output runs/smoke/decoded.json
 ```
 
-Random-model descriptions and synthetic-note metrics have no clinical or benchmark meaning. Tests check gradient flow into shared LoRA and slots, frozen base weights, null/padding behavior, facet applicability masks, full-label block equivalence, and the exact expectation of the importance-weighted loss.
 
 ## Data format
 
-Obtain authorized access to MIMIC and UMLS separately. Preserve the benchmark's established split identifiers. This repository does not infer those splits from the counts in the paper.
+Obtain authorized access to MIMIC and UMLS separately. 
 
 Each note is a JSONL record:
 
@@ -127,7 +126,6 @@ Training retains the union of positive codes in each batch and uniformly samples
 
 The supplied paper configurations use trainable random word embeddings. For pretrained embeddings, export `vocab.json` using `prepare_data --vocab-output`, align a NumPy matrix to that exact vocabulary order, and set `word_embeddings` to its `.npy` path. Use the same frequency and size settings as training.
 
-Full-size joint training retains language-model graphs for evaluated code facets. Hardware needs depend on the backbone, precision, candidates, and sequence lengths. The script supports one device per process and does not claim the paper's measured memory footprint. Gradient checkpointing is enabled; reduce `facet_micro_batch` if an individual forward is too large, or use a larger-memory device. CPU smoke settings are deliberately much smaller.
 
 ## Evaluation and evidence inspection
 
@@ -143,23 +141,6 @@ python -m scripts.aggregate_runs --metrics runs/mimic3_full/seed13/test_metrics.
 
 `inspect` exports null probabilities, token attention, cross-facet attention, evidence vectors, and pooling weights for one note/code pair. Token indices follow the normalized, truncated note. `decode` reconstructs optional descriptions from the trained continuous prefixes; classification does not depend on decoded text.
 
-Basic controls are available through `description_weight: 0`, `stop_classification_gradient: true`, `use_null: false`, and `use_interaction: false`. These controls do not cover every supplementary experiment. The repository does not provide the paper's matched representation exports, clinician-independent support threshold, baseline reruns, or runtime measurements.
-
-## Sample profiles
-
-The [`sample/`](sample/) directory contains five complete six-facet examples:
-
-| ICD-9 | Description |
-|---|---|
-| 482.9 | Bacterial pneumonia, unspecified |
-| 478.33 | Bilateral partial paralysis of vocal cords |
-| 240 | Simple and unspecified goiter |
-| 428.0 | Congestive heart failure, unspecified |
-| 493.90 | Asthma, unspecified type, unspecified |
-
-Open [`profiles.html`](sample/profiles.html) for the readable comparison, [`profiles.md`](sample/profiles.md) for Markdown, or [`profiles.tex`](sample/profiles.tex) for manuscript tables. The LaTeX uses `booktabs`, `tabularx`, `array`, `xcolor`, and `hyperref`; `sample_tables.tex` is the wrapper document.
-
-A five-page PDF preview is included as `profiles.pdf`. Regenerate it with the optional ReportLab dependency:
 
 ```bash
 python -m pip install reportlab==4.4.9
@@ -183,8 +164,6 @@ configs/        Five benchmark configurations
 descfuse/       Model, data, objectives, metrics, training, CLI, reference retrieval
 scripts/        Data conversion, UMLS/PubMed import, references, samples, run aggregation
 sample/         Five comparison tables and structured reference examples
-tests/          Model invariants and objective checks
-docs/           Paper mapping, implementation choices, verification record
+tests/          Model invariants
 ```
 
-The clinical source links in the sample files support their clinical reference text. They are separate from the original UMLS/PubMed reference cache used in the paper.
